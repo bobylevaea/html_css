@@ -54,6 +54,7 @@ header {
     width: 533px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navigation a {
@@ -66,17 +67,17 @@ header {
     font-family: Gilroy-SemiBold;
 }
 
-.main {
+main {
+    margin-bottom: 200px;
 }
 
 .main-content {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 162px;
 }
 
 .main-content__wrapper {
-    max-width: 522px;
+    width: 522px;
 }
 
 .main-content__wrapper h1 {
@@ -99,7 +100,7 @@ header {
     gap: 72px;
 }
 
-.main-content__btn1 {
+.btn-start {
     color: #FFF;
     font-family: Gilroy-Bold;
     font-size: 15px;
@@ -112,8 +113,8 @@ header {
 }
 
 
-.main-content__btn2 {
-    color: #AAAAAA;
+.btn-watch {
+    color: #AAA;
     font-family: Gilroy-Bold;
     font-size: 15px;
     padding: 15px 35px;
@@ -123,6 +124,7 @@ header {
 }
 
 footer {
+    margin-bottom: 100px;
 }
 
 .logos {
