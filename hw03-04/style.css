@@ -33,9 +33,6 @@ img {
     margin: 0 auto;
 }
 
-.container-nav {
-    padding: 12px;
-}
 
 header {
     padding: 40px 0;
@@ -46,15 +43,14 @@ header {
 
 .navigation {
     display: flex;
-    justify-content: flex-start;
-    gap: 500px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation-nav {
     width: 533px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .navigation a {
