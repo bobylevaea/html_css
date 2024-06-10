@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./font/Gilroy-Bold.woff2');
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./font/Gilroy-Medium.woff2');
+}
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url('./font/Gilroy-Semibold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('./font/Gilroy-Regular.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-weight: 400;
+    background: #FFF;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 0;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    margin-bottom: 84px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-nav {
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a {
+    color: #000;
+    font-family: Gilroy-Medium;
+}
+
+.navigation a.home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.main-content__wrapper {
+    width: 522px;
+}
+
+.main-content__wrapper h1 {
+    color: #000;
+    font-size: 60px;
+    font-family: Gilroy-Bold;
+    margin-bottom: 17px;
+}
+
+.main-content__wrapper p {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    margin-bottom: 37px;
+    max-width: 466px;
+}
+
+.main-content__btn-list {
+    display: flex;
+    gap: 72px;
+}
+
+.btn-start {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-watch {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    padding: 15px 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card-list1 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.small-card {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	gap: 20px;
+    padding: 40px 30px 25px;
+}
+
+.small-card__center-card {
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    max-width: 370px;
+}
+
+.small-card h2 {
+	font-family: Gilroy-Bold;
+    font-size: 24px;
+}
+
+.small-card p {
+	font-family: Gilroy-Regular;
+    font-size: 15px;
+	line-height: 150%;
+	color: #666;
+}
+
+.small-card button {
+	font-family: Gilroy-Bold;
+	font-size: 11px;
+	line-height: 150%;
+	background: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+	padding: 100px 0px;
+	background: #fafafa;;
+}
+
+.services-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services-content h2{
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+	line-height: 120%;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.services-content p{
+	font-family: Gilroy-Regular;
+    max-width: 682px;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #888;
+	margin-bottom: 48px;
+}
+
+.card-list2 {
+	font-family: Gilroy-Bold;
+    display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.big-card {
+    max-width: 370px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 0px 34px 34px;
+	background: #fff;
+}
+
+.big-card__center-card {
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.big-card h2{
+    font-size: 24px;
+	margin-bottom: 22px;
+}
+
+.big-card p {
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+	line-height: 150%;
+	color: #666;
+	margin-bottom: 39px;
+}
+
+.big-card button {
+	font-family: Gilroy-Bold;
+    font-size: 13px;
+	color: #fff;
+	border-radius: 50px;
+	padding: 15px 40px;
+	box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+	background: #f25822;
+    border: none;
+    cursor: pointer;
+}
