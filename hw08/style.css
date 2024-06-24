@@ -267,6 +267,7 @@ button {
 	.products-about {
 		gap: 3px;
 		padding-bottom: 72px;
+    text-align: center;
 	}
 
 	.card_list2 {
@@ -275,5 +276,74 @@ button {
 
 	.products-button {
 		margin-top: 32px;
+	}
+}
+
+@media (max-width:767px) and (min-width:320px) {
+	.container {
+		max-width: 343px;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+  .left {
+    margin-left: 16px;
+}
+
+  .right {
+    flex-direction: row-reverse;
+    margin-right: 16px;
+}
+
+	.main_content {
+		height: 375px;
+    justify-content: center;
+	}
+
+	.main_content-title_p1 {
+		font-size: 38px;
+	}
+
+	.main_content-title_p2 {
+		font-size: 20px;
+	}
+
+	.card_list1 {
+		padding: 64px 0 64px;
+		gap: 32px;
+	}
+
+	.card_list1-card_img1,
+	.card_list1-card_img2,
+	.card_list1-card_img3 {
+		width: 343px;
+		height: 247px;
+	}
+
+	.card_list1-card_img4 {
+		width: 343;
+		height: 111px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.products {
+		padding-bottom: 85px;
+	}
+
+	.products-about {
+		gap: 3px;
+		padding-bottom: 65px;
+    text-align: center;
+	}
+
+	.card_list2 {
+		gap: 16px;
+	}
+
+	.products-button {
+		margin-top: 41px;
 	}
 }
